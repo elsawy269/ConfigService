@@ -1,5 +1,6 @@
 # ConfigSample
 
+Most programmers know you should not hard-code values in your application. In this course, Building Reusable Angular Services: Configuration Management, you will learn how to create a service to supply values to your application and avoid hard-coding. Next, you will learn to store default values in a JSON file, local storage, and in a SQL Server table. In addition, you will explore how to let the user set their own default values. Using the service built in this course will allow you to eliminate hard-coding in your application. At the end of this course, you will have a service you can use in your Angular applications to eliminate hard-coded values.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.3.
 
 ## Development server
