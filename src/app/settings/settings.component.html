@@ -1,0 +1,33 @@
+ 
+
+<div *ngIf="settings">
+
+
+  <div class="panel panel-primary">
+    <div class="panel-heading">
+      <h3 class="panel-title"> Default Settings</h3>
+    </div>
+    <div class="panel-body">
+   
+      
+      <div class="form-group">
+        <label>Default Price</label>
+        <input [(ngModel)]="settings.defaultPrice" class="form-control" />
+      </div>
+      
+      <div class="form-group">
+        <label>Default Url</label>
+        <input [(ngModel)]="settings.defaultUrl" class="form-control" />
+      </div>
+    </div>
+    <div class="panel-footer">
+      <button class="btn btn-primary" (click)="saveSettings()">Save</button>
+      <button   class="btn btn-danger" (click)="deleteSetting()">Delete</button>
+       <button class="btn btn-default" >Cancel</button>
+    </div>
+  </div>
+
+
+
+</div>
+ 
